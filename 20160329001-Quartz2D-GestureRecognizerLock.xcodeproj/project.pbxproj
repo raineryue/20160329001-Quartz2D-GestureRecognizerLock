@@ -15,6 +15,8 @@
 		D5CF36C21CAA137500A0FEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CF36C01CAA137500A0FEB9 /* LaunchScreen.storyboard */; };
 		D5CF36CD1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36CC1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m */; };
 		D5CF36D81CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36D71CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m */; };
+		D5CF36E71CAA16CD00A0FEB9 /* GestureRecognizerLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36E61CAA16CD00A0FEB9 /* GestureRecognizerLockView.m */; };
+		D5CF36EA1CAA187F00A0FEB9 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36E91CAA187F00A0FEB9 /* LockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D5CF36D31CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160329001-Quartz2D-GestureRecognizerLockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CF36D71CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160329001_Quartz2D_GestureRecognizerLockUITests.m; sourceTree = "<group>"; };
 		D5CF36D91CAA137500A0FEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CF36E51CAA16CD00A0FEB9 /* GestureRecognizerLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerLockView.h; sourceTree = "<group>"; };
+		D5CF36E61CAA16CD00A0FEB9 /* GestureRecognizerLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerLockView.m; sourceTree = "<group>"; };
+		D5CF36E81CAA187F00A0FEB9 /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		D5CF36E91CAA187F00A0FEB9 /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				D5CF36B61CAA137500A0FEB9 /* AppDelegate.m */,
 				D5CF36B81CAA137500A0FEB9 /* ViewController.h */,
 				D5CF36B91CAA137500A0FEB9 /* ViewController.m */,
+				D5CF36E51CAA16CD00A0FEB9 /* GestureRecognizerLockView.h */,
+				D5CF36E61CAA16CD00A0FEB9 /* GestureRecognizerLockView.m */,
+				D5CF36E81CAA187F00A0FEB9 /* LockView.h */,
+				D5CF36E91CAA187F00A0FEB9 /* LockView.m */,
 				D5CF36BB1CAA137500A0FEB9 /* Main.storyboard */,
 				D5CF36BE1CAA137500A0FEB9 /* Assets.xcassets */,
 				D5CF36C01CAA137500A0FEB9 /* LaunchScreen.storyboard */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5CF36BA1CAA137500A0FEB9 /* ViewController.m in Sources */,
+				D5CF36EA1CAA187F00A0FEB9 /* LockView.m in Sources */,
+				D5CF36E71CAA16CD00A0FEB9 /* GestureRecognizerLockView.m in Sources */,
 				D5CF36B71CAA137500A0FEB9 /* AppDelegate.m in Sources */,
 				D5CF36B41CAA137500A0FEB9 /* main.m in Sources */,
 			);
