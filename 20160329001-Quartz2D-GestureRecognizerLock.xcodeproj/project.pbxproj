@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5CF36B41CAA137500A0FEB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36B31CAA137500A0FEB9 /* main.m */; };
+		D5CF36B71CAA137500A0FEB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36B61CAA137500A0FEB9 /* AppDelegate.m */; };
+		D5CF36BA1CAA137500A0FEB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36B91CAA137500A0FEB9 /* ViewController.m */; };
+		D5CF36BD1CAA137500A0FEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CF36BB1CAA137500A0FEB9 /* Main.storyboard */; };
+		D5CF36BF1CAA137500A0FEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF36BE1CAA137500A0FEB9 /* Assets.xcassets */; };
+		D5CF36C21CAA137500A0FEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CF36C01CAA137500A0FEB9 /* LaunchScreen.storyboard */; };
+		D5CF36CD1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36CC1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m */; };
+		D5CF36D81CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF36D71CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5CF36C91CAA137500A0FEB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5CF36A71CAA137500A0FEB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5CF36AE1CAA137500A0FEB9;
+			remoteInfo = "20160329001-Quartz2D-GestureRecognizerLock";
+		};
+		D5CF36D41CAA137500A0FEB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5CF36A71CAA137500A0FEB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5CF36AE1CAA137500A0FEB9;
+			remoteInfo = "20160329001-Quartz2D-GestureRecognizerLock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5CF36AF1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160329001-Quartz2D-GestureRecognizerLock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CF36B31CAA137500A0FEB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5CF36B51CAA137500A0FEB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5CF36B61CAA137500A0FEB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5CF36B81CAA137500A0FEB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5CF36B91CAA137500A0FEB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5CF36BC1CAA137500A0FEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5CF36BE1CAA137500A0FEB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5CF36C11CAA137500A0FEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5CF36C31CAA137500A0FEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CF36C81CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160329001-Quartz2D-GestureRecognizerLockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CF36CC1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160329001_Quartz2D_GestureRecognizerLockTests.m; sourceTree = "<group>"; };
+		D5CF36CE1CAA137500A0FEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CF36D31CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160329001-Quartz2D-GestureRecognizerLockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CF36D71CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160329001_Quartz2D_GestureRecognizerLockUITests.m; sourceTree = "<group>"; };
+		D5CF36D91CAA137500A0FEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5CF36AC1CAA137500A0FEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CF36C51CAA137500A0FEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CF36D01CAA137500A0FEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5CF36A61CAA137500A0FEB9 = {
+			isa = PBXGroup;
+			children = (
+				D5CF36B11CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock */,
+				D5CF36CB1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests */,
+				D5CF36D61CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests */,
+				D5CF36B01CAA137500A0FEB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5CF36B01CAA137500A0FEB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF36AF1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock.app */,
+				D5CF36C81CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests.xctest */,
+				D5CF36D31CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5CF36B11CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF36B51CAA137500A0FEB9 /* AppDelegate.h */,
+				D5CF36B61CAA137500A0FEB9 /* AppDelegate.m */,
+				D5CF36B81CAA137500A0FEB9 /* ViewController.h */,
+				D5CF36B91CAA137500A0FEB9 /* ViewController.m */,
+				D5CF36BB1CAA137500A0FEB9 /* Main.storyboard */,
+				D5CF36BE1CAA137500A0FEB9 /* Assets.xcassets */,
+				D5CF36C01CAA137500A0FEB9 /* LaunchScreen.storyboard */,
+				D5CF36C31CAA137500A0FEB9 /* Info.plist */,
+				D5CF36B21CAA137500A0FEB9 /* Supporting Files */,
+			);
+			path = "20160329001-Quartz2D-GestureRecognizerLock";
+			sourceTree = "<group>";
+		};
+		D5CF36B21CAA137500A0FEB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF36B31CAA137500A0FEB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5CF36CB1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF36CC1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m */,
+				D5CF36CE1CAA137500A0FEB9 /* Info.plist */,
+			);
+			path = "20160329001-Quartz2D-GestureRecognizerLockTests";
+			sourceTree = "<group>";
+		};
+		D5CF36D61CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF36D71CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m */,
+				D5CF36D91CAA137500A0FEB9 /* Info.plist */,
+			);
+			path = "20160329001-Quartz2D-GestureRecognizerLockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5CF36AE1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CF36DC1CAA137500A0FEB9 /* Build configuration list for PBXNativeTarget "20160329001-Quartz2D-GestureRecognizerLock" */;
+			buildPhases = (
+				D5CF36AB1CAA137500A0FEB9 /* Sources */,
+				D5CF36AC1CAA137500A0FEB9 /* Frameworks */,
+				D5CF36AD1CAA137500A0FEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160329001-Quartz2D-GestureRecognizerLock";
+			productName = "20160329001-Quartz2D-GestureRecognizerLock";
+			productReference = D5CF36AF1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5CF36C71CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CF36DF1CAA137500A0FEB9 /* Build configuration list for PBXNativeTarget "20160329001-Quartz2D-GestureRecognizerLockTests" */;
+			buildPhases = (
+				D5CF36C41CAA137500A0FEB9 /* Sources */,
+				D5CF36C51CAA137500A0FEB9 /* Frameworks */,
+				D5CF36C61CAA137500A0FEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5CF36CA1CAA137500A0FEB9 /* PBXTargetDependency */,
+			);
+			name = "20160329001-Quartz2D-GestureRecognizerLockTests";
+			productName = "20160329001-Quartz2D-GestureRecognizerLockTests";
+			productReference = D5CF36C81CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5CF36D21CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CF36E21CAA137500A0FEB9 /* Build configuration list for PBXNativeTarget "20160329001-Quartz2D-GestureRecognizerLockUITests" */;
+			buildPhases = (
+				D5CF36CF1CAA137500A0FEB9 /* Sources */,
+				D5CF36D01CAA137500A0FEB9 /* Frameworks */,
+				D5CF36D11CAA137500A0FEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5CF36D51CAA137500A0FEB9 /* PBXTargetDependency */,
+			);
+			name = "20160329001-Quartz2D-GestureRecognizerLockUITests";
+			productName = "20160329001-Quartz2D-GestureRecognizerLockUITests";
+			productReference = D5CF36D31CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5CF36A71CAA137500A0FEB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D5CF36AE1CAA137500A0FEB9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D5CF36C71CAA137500A0FEB9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5CF36AE1CAA137500A0FEB9;
+					};
+					D5CF36D21CAA137500A0FEB9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5CF36AE1CAA137500A0FEB9;
+					};
+				};
+			};
+			buildConfigurationList = D5CF36AA1CAA137500A0FEB9 /* Build configuration list for PBXProject "20160329001-Quartz2D-GestureRecognizerLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5CF36A61CAA137500A0FEB9;
+			productRefGroup = D5CF36B01CAA137500A0FEB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5CF36AE1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock */,
+				D5CF36C71CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockTests */,
+				D5CF36D21CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5CF36AD1CAA137500A0FEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CF36C21CAA137500A0FEB9 /* LaunchScreen.storyboard in Resources */,
+				D5CF36BF1CAA137500A0FEB9 /* Assets.xcassets in Resources */,
+				D5CF36BD1CAA137500A0FEB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CF36C61CAA137500A0FEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CF36D11CAA137500A0FEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5CF36AB1CAA137500A0FEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CF36BA1CAA137500A0FEB9 /* ViewController.m in Sources */,
+				D5CF36B71CAA137500A0FEB9 /* AppDelegate.m in Sources */,
+				D5CF36B41CAA137500A0FEB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CF36C41CAA137500A0FEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CF36CD1CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CF36CF1CAA137500A0FEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CF36D81CAA137500A0FEB9 /* _0160329001_Quartz2D_GestureRecognizerLockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5CF36CA1CAA137500A0FEB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5CF36AE1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock */;
+			targetProxy = D5CF36C91CAA137500A0FEB9 /* PBXContainerItemProxy */;
+		};
+		D5CF36D51CAA137500A0FEB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5CF36AE1CAA137500A0FEB9 /* 20160329001-Quartz2D-GestureRecognizerLock */;
+			targetProxy = D5CF36D41CAA137500A0FEB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5CF36BB1CAA137500A0FEB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CF36BC1CAA137500A0FEB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5CF36C01CAA137500A0FEB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CF36C11CAA137500A0FEB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5CF36DA1CAA137500A0FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5CF36DB1CAA137500A0FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5CF36DD1CAA137500A0FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160329001-Quartz2D-GestureRecognizerLock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329001-Quartz2D-GestureRecognizerLock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5CF36DE1CAA137500A0FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160329001-Quartz2D-GestureRecognizerLock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329001-Quartz2D-GestureRecognizerLock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5CF36E01CAA137500A0FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160329001-Quartz2D-GestureRecognizerLockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329001-Quartz2D-GestureRecognizerLockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160329001-Quartz2D-GestureRecognizerLock.app/20160329001-Quartz2D-GestureRecognizerLock";
+			};
+			name = Debug;
+		};
+		D5CF36E11CAA137500A0FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160329001-Quartz2D-GestureRecognizerLockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329001-Quartz2D-GestureRecognizerLockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160329001-Quartz2D-GestureRecognizerLock.app/20160329001-Quartz2D-GestureRecognizerLock";
+			};
+			name = Release;
+		};
+		D5CF36E31CAA137500A0FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160329001-Quartz2D-GestureRecognizerLockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329001-Quartz2D-GestureRecognizerLockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160329001-Quartz2D-GestureRecognizerLock";
+			};
+			name = Debug;
+		};
+		D5CF36E41CAA137500A0FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160329001-Quartz2D-GestureRecognizerLockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329001-Quartz2D-GestureRecognizerLockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160329001-Quartz2D-GestureRecognizerLock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5CF36AA1CAA137500A0FEB9 /* Build configuration list for PBXProject "20160329001-Quartz2D-GestureRecognizerLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CF36DA1CAA137500A0FEB9 /* Debug */,
+				D5CF36DB1CAA137500A0FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CF36DC1CAA137500A0FEB9 /* Build configuration list for PBXNativeTarget "20160329001-Quartz2D-GestureRecognizerLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CF36DD1CAA137500A0FEB9 /* Debug */,
+				D5CF36DE1CAA137500A0FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5CF36DF1CAA137500A0FEB9 /* Build configuration list for PBXNativeTarget "20160329001-Quartz2D-GestureRecognizerLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CF36E01CAA137500A0FEB9 /* Debug */,
+				D5CF36E11CAA137500A0FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5CF36E21CAA137500A0FEB9 /* Build configuration list for PBXNativeTarget "20160329001-Quartz2D-GestureRecognizerLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CF36E31CAA137500A0FEB9 /* Debug */,
+				D5CF36E41CAA137500A0FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5CF36A71CAA137500A0FEB9 /* Project object */;
+}
